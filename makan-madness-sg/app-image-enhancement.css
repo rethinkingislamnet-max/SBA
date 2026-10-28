@@ -1,0 +1,3 @@
+#makan-sg .foodpic img{display:block;width:100%;height:100%;object-fit:cover}
+#makan-sg .sba-food-photo-credit{display:block;padding:5px 12px;font-size:10px;line-height:1.4;color:#64566b;background:#fff;overflow-wrap:anywhere}
+@media(max-width:640px){#makan-sg .sba-food-photo-credit{font-size:9px;padding:5px 8px}}
