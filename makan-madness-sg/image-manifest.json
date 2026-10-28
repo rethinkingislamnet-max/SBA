@@ -1,6 +1,65 @@
 {
   "app": "Makan Madness SG",
-  "version": "2-preparation",
-  "images": [],
-  "notes": "Public approved optimized imagery only. Original photographs and licensing records remain in SBA Google Drive."
+  "images": [
+    {
+      "slug": "hainanese-chicken-rice",
+      "dish": "Hainanese Chicken Rice",
+      "filename": "Hainanese chicken rice in Singapore.jpg",
+      "author": "Pauloleong2002",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hainanese_chicken_rice_in_Singapore.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "path": "/makan-madness-sg/images/hainanese-chicken-rice.webp",
+      "bytes": 39058,
+      "modified": "Resized and converted to WebP for web delivery"
+    },
+    {
+      "slug": "char-kway-teow",
+      "dish": "Char Kway Teow",
+      "filename": "Char kway teow.jpg",
+      "author": "Elizetang",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Char_kway_teow.jpg",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Char_kway_teow.jpg",
+      "path": "/makan-madness-sg/images/char-kway-teow.webp",
+      "bytes": 25364,
+      "modified": "Resized and converted to WebP for web delivery"
+    },
+    {
+      "slug": "hokkien-mee",
+      "dish": "Hokkien Mee",
+      "filename": "Hokkien Mee.JPG",
+      "author": "Satdeep Gill",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hokkien_Mee.JPG",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "path": "/makan-madness-sg/images/hokkien-mee.webp",
+      "bytes": 36576,
+      "modified": "Resized and converted to WebP for web delivery"
+    },
+    {
+      "slug": "katong-laksa",
+      "dish": "Katong Laksa",
+      "filename": "Katong laksa.jpg",
+      "author": "ProjectManhattan",
+      "license": "CC0 1.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Katong_laksa.jpg",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "path": "/makan-madness-sg/images/katong-laksa.webp",
+      "bytes": 81992,
+      "modified": "Resized and converted to WebP for web delivery"
+    },
+    {
+      "slug": "kaya-toast",
+      "dish": "Kaya Toast",
+      "filename": "Kaya Toast with Coffee.jpg",
+      "author": "Daniel",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kaya_Toast_with_Coffee.jpg",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "path": "/makan-madness-sg/images/kaya-toast.webp",
+      "bytes": 17770,
+      "modified": "Resized and converted to WebP for web delivery"
+    }
+  ]
 }
