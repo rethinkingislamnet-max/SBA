@@ -60,6 +60,42 @@
       "path": "/makan-madness-sg/images/kaya-toast.webp",
       "bytes": 17770,
       "modified": "Resized and converted to WebP for web delivery"
+    },
+    {
+      "slug": "nasi-lemak",
+      "dish": "Nasi Lemak",
+      "filename": "Nasi Lemak by Banej, Singapore Nov 2017.jpg",
+      "author": "Banej",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Nasi_Lemak_by_Banej,_Singapore_Nov_2017.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/makan-madness-sg/images/nasi-lemak.webp",
+      "bytes": 84786,
+      "modified": "Resized and converted to WebP for web delivery"
+    },
+    {
+      "slug": "roti-prata",
+      "dish": "Roti Prata",
+      "filename": "Roti prata 2.jpg",
+      "author": "Wikimedia Commons contributor (see source)",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Roti_prata_2.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/makan-madness-sg/images/roti-prata.webp",
+      "bytes": 22878,
+      "modified": "Resized and converted to WebP for web delivery"
+    },
+    {
+      "slug": "biryani",
+      "dish": "Biryani",
+      "filename": "Mutton briyani from Little India, Singapore - 20130719.jpg",
+      "author": "Tonbi ko",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mutton_briyani_from_Little_India,_Singapore_-_20130719.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/makan-madness-sg/images/biryani.webp",
+      "bytes": 30492,
+      "modified": "Resized and converted to WebP for web delivery"
     }
   ]
 }
