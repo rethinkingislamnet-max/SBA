@@ -1,3 +1,5 @@
-#makan-sg .foodpic img{display:block;width:100%;height:100%;object-fit:cover}
-#makan-sg .sba-food-photo-credit{display:block;padding:5px 12px;font-size:10px;line-height:1.4;color:#64566b;background:#fff;overflow-wrap:anywhere}
+#makan-sg .foodpic.sba-has-photo,#makan-sg .dialogpic.sba-has-photo{position:relative}
+#makan-sg .foodpic img[data-sba-photo],#makan-sg .dialogpic img[data-sba-photo]{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:3;display:block}
+#makan-sg .sba-food-photo-credit{display:block;padding:6px 12px;font-size:10px;line-height:1.45;color:#584c60;background:#fff;overflow-wrap:anywhere}
+#makan-sg .sba-food-photo-credit a{color:#754386;text-decoration:underline}
 @media(max-width:640px){#makan-sg .sba-food-photo-credit{font-size:9px;padding:5px 8px}}
