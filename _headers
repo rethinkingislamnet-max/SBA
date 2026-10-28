@@ -2,5 +2,9 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
 
+/makan-madness-sg/image-manifest.json
+  Access-Control-Allow-Origin: https://rethinkingislam.net
+  Cache-Control: public, max-age=300
+
 /makan-madness-sg/images/*
   Cache-Control: public, max-age=3600
