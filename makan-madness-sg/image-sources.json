@@ -70,5 +70,32 @@
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Mutton_briyani_from_Little_India,_Singapore_-_20130719.jpg",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "slug": "bak-chor-mee",
+    "dish": "Bak Chor Mee",
+    "filename": "Bak-chor-mee.jpg",
+    "author": "JB Macatulad",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bak-chor-mee.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "slug": "fishball-noodles",
+    "dish": "Fishball Noodles",
+    "filename": "Fishball Noodles.jpg",
+    "author": "ProjectManhattan",
+    "license": "CC0 1.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fishball_Noodles.jpg",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "slug": "yong-tau-foo",
+    "dish": "Yong Tau Foo",
+    "filename": "Yong Tau Foo.jpg",
+    "author": "ShahirahNajieha21",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yong_Tau_Foo.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
   }
 ]
