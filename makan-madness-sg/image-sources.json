@@ -316,5 +316,14 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sambal_goreng_kentang.JPG",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
     "note": "Potato variant, not a universal representation of Singapore sambal goreng"
+  },
+  {
+    "slug": "fried-carrot-cake",
+    "dish": "Fried Carrot Cake",
+    "filename": "Fried Chinese Carrot Cake by Banej.jpg",
+    "author": "Banej",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fried_Chinese_Carrot_Cake_by_Banej.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
   }
 ]
