@@ -423,6 +423,18 @@
       "path": "/makan-madness-sg/images/sambal-goreng.webp",
       "bytes": 59054,
       "modified": "Resized and converted to WebP for web delivery"
+    },
+    {
+      "slug": "fried-carrot-cake",
+      "dish": "Fried Carrot Cake",
+      "filename": "Fried Chinese Carrot Cake by Banej.jpg",
+      "author": "Banej",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fried_Chinese_Carrot_Cake_by_Banej.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "path": "/makan-madness-sg/images/fried-carrot-cake.webp",
+      "bytes": 34926,
+      "modified": "Resized and converted to WebP for web delivery"
     }
   ]
 }
