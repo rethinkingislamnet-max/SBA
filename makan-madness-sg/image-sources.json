@@ -187,5 +187,32 @@
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Vada_Food.jpg",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "slug": "appam",
+    "dish": "Appam",
+    "filename": "Appam - அப்பம்.jpg",
+    "author": "VinPrasad",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Appam_-_அப்பம்.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "slug": "putu-mayam",
+    "dish": "Putu Mayam",
+    "filename": "Putu mayam.jpg",
+    "author": "boo lee",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Putu_mayam.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    "slug": "banana-leaf-rice",
+    "dish": "Banana Leaf Rice",
+    "filename": "Banana leaf rice.jpg",
+    "author": "Misaochan",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Banana_leaf_rice.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
   }
 ]
