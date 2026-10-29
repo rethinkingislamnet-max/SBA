@@ -6,6 +6,9 @@ on:
       - 'makan-madness-sg/image-sources.json'
       - 'makan-madness-sg/build_images.py'
       - '.github/workflows/publish-food-images.yml'
+concurrency:
+  group: makan-madness-images
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -13,14 +16,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: python -m pip install Pillow
       - run: python makan-madness-sg/build_images.py
-      - name: Commit approved optimised images
+      - name: Commit approved images and reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add makan-madness-sg/images makan-madness-sg/image-manifest.json makan-madness-sg/image-build-report.json
-          git diff --staged --quiet || (git commit -m "Publish five licensed food images" && git push)
+          if git diff --staged --quiet; then
+            echo "Nothing to publish"
+            exit 0
+          fi
+          git commit -m "Publish processed food images and build report"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 3
+          done
+          exit 1
