@@ -286,5 +286,35 @@
     "license": "Public domain",
     "source": "https://commons.wikimedia.org/wiki/File:Chicken_Vindaloo.jpeg",
     "license_url": "https://commons.wikimedia.org/wiki/File:Chicken_Vindaloo.jpeg"
+  },
+  {
+    "slug": "love-cake",
+    "dish": "Love Cake",
+    "filename": "Love Cake.jpg",
+    "author": "Dan arndt",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Love_Cake.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "note": ""
+  },
+  {
+    "slug": "fish-caldeirada",
+    "dish": "Fish Caldeirada",
+    "filename": "Caldeirada.jpg",
+    "author": "Ricardo Martins",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Caldeirada.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "note": "Portuguese version; local Eurasian preparation can differ"
+  },
+  {
+    "slug": "sambal-goreng",
+    "dish": "Sambal Goreng",
+    "filename": "Sambal goreng kentang.JPG",
+    "author": "Midori",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sambal_goreng_kentang.JPG",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "note": "Potato variant, not a universal representation of Singapore sambal goreng"
   }
 ]
