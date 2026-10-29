@@ -435,6 +435,66 @@
       "path": "/makan-madness-sg/images/fried-carrot-cake.webp",
       "bytes": 34926,
       "modified": "Resized and converted to WebP for web delivery"
+    },
+    {
+      "slug": "curry-debal",
+      "dish": "Curry Debal",
+      "path": "/makan-madness-sg/images/curry-debal.svg",
+      "author": "Strategic Bridge Asia",
+      "license": "Original illustration",
+      "source": "https://rethinkingislam.net/sba/makan-madness-sg/",
+      "license_url": null,
+      "bytes": 1125,
+      "modified": "Original SVG illustration; not a documentary food photograph",
+      "image_type": "illustration"
+    },
+    {
+      "slug": "beef-smore",
+      "dish": "Beef Smore",
+      "path": "/makan-madness-sg/images/beef-smore.svg",
+      "author": "Strategic Bridge Asia",
+      "license": "Original illustration",
+      "source": "https://rethinkingislam.net/sba/makan-madness-sg/",
+      "license_url": null,
+      "bytes": 1124,
+      "modified": "Original SVG illustration; not a documentary food photograph",
+      "image_type": "illustration"
+    },
+    {
+      "slug": "pang-susi",
+      "dish": "Pang Susi",
+      "path": "/makan-madness-sg/images/pang-susi.svg",
+      "author": "Strategic Bridge Asia",
+      "license": "Original illustration",
+      "source": "https://rethinkingislam.net/sba/makan-madness-sg/",
+      "license_url": null,
+      "bytes": 967,
+      "modified": "Original SVG illustration; not a documentary food photograph",
+      "image_type": "illustration"
+    },
+    {
+      "slug": "feng",
+      "dish": "Feng",
+      "path": "/makan-madness-sg/images/feng.svg",
+      "author": "Strategic Bridge Asia",
+      "license": "Original illustration",
+      "source": "https://rethinkingislam.net/sba/makan-madness-sg/",
+      "license_url": null,
+      "bytes": 1111,
+      "modified": "Original SVG illustration; not a documentary food photograph",
+      "image_type": "illustration"
+    },
+    {
+      "slug": "breudher",
+      "dish": "Breudher",
+      "path": "/makan-madness-sg/images/breudher.svg",
+      "author": "Strategic Bridge Asia",
+      "license": "Original illustration",
+      "source": "https://rethinkingislam.net/sba/makan-madness-sg/",
+      "license_url": null,
+      "bytes": 954,
+      "modified": "Original SVG illustration; not a documentary food photograph",
+      "image_type": "illustration"
     }
   ]
 }
