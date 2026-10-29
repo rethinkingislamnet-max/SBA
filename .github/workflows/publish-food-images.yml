@@ -22,5 +22,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add makan-madness-sg/images makan-madness-sg/image-manifest.json
+          git add makan-madness-sg/images makan-madness-sg/image-manifest.json makan-madness-sg/image-build-report.json
           git diff --staged --quiet || (git commit -m "Publish five licensed food images" && git push)
