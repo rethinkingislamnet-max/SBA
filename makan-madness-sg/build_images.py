@@ -33,6 +33,23 @@ for item in sources:
     except Exception as exc:
         failures.append({"dish":item["dish"],"filename":item["filename"],"error":str(exc)[:250]})
         print("SKIP",item["dish"],str(exc)[:150],file=sys.stderr)
+# The five scarce Eurasian dishes use distinctly labelled original illustrations, never passed off as photos.
+illustrations = [
+    ("curry-debal", "Curry Debal"),
+    ("beef-smore", "Beef Smore"),
+    ("pang-susi", "Pang Susi"),
+    ("feng", "Feng"),
+    ("breudher", "Breudher"),
+]
+for slug, dish in illustrations:
+    svg = out / (slug + ".svg")
+    if svg.exists():
+        manifest.append({"slug":slug,"dish":dish,"path":"/makan-madness-sg/images/"+svg.name,
+            "author":"Strategic Bridge Asia","license":"Original illustration",
+            "source":"https://rethinkingislam.net/sba/makan-madness-sg/",
+            "license_url":None,"bytes":svg.stat().st_size,
+            "modified":"Original SVG illustration; not a documentary food photograph",
+            "image_type":"illustration"})
 (root/"image-manifest.json").write_text(json.dumps({"app":"Makan Madness SG","images":manifest},ensure_ascii=False,indent=2)+"\n")
 (root/"image-build-report.json").write_text(json.dumps({"selected":len(sources),"published":len(manifest),"failures":failures},ensure_ascii=False,indent=2)+"\n")
 print("Published",len(manifest),"of",len(sources),"sources; failures",len(failures))
