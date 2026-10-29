@@ -115,5 +115,50 @@
     "license": "CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Mee_siam.jpg",
     "license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  {
+    "slug": "wanton-mee",
+    "dish": "Wanton Mee",
+    "filename": "WantonMee.JPG",
+    "author": "L joo",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:WantonMee.JPG",
+    "license_url": "https://commons.wikimedia.org/wiki/File:WantonMee.JPG"
+  },
+  {
+    "slug": "mee-rebus",
+    "dish": "Mee Rebus",
+    "filename": "MeeRebus.JPG",
+    "author": "Kcdtsg",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:MeeRebus.JPG",
+    "license_url": "https://commons.wikimedia.org/wiki/File:MeeRebus.JPG"
+  },
+  {
+    "slug": "chee-cheong-fun",
+    "dish": "Chee Cheong Fun",
+    "filename": "Chee cheong fun.jpg",
+    "author": "Cmglee",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chee_cheong_fun.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "slug": "lontong",
+    "dish": "Lontong",
+    "filename": "Singapore T3 Kopitiam - Lontong.jpg",
+    "author": "Orderinchaos",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Singapore_T3_Kopitiam_-_Lontong.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "slug": "nasi-padang",
+    "dish": "Nasi Padang",
+    "filename": "Nasi padang.jpg",
+    "author": "ProjectManhattan",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nasi_padang.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
   }
 ]
