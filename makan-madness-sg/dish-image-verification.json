@@ -3,11 +3,12 @@
   "purpose": "Track source verification, rights and dish identity separately from image availability. Do not equate a matching filename with visual verification.",
   "summary": {
     "dish_count": 40,
+    "source_candidates": 12,
     "published_candidate_matches": 7,
-    "verified_source_and_licence": 2,
-    "awaiting_visual_inspection": 40,
-    "missing": 33,
-    "additional_unmatched_asset": "Katong Laksa"
+    "awaiting_image_processing": 5,
+    "missing": 28,
+    "additional_unmatched_asset": "Katong Laksa",
+    "full_visual_checks_outstanding": "Not independently completed for all items"
   },
   "rows": [
     {
@@ -46,11 +47,11 @@
     {
       "number": 4,
       "dish": "Bak Chor Mee",
-      "image_status": "missing",
+      "image_status": "source_selected_awaiting_image",
       "verification_status": "pending_independent_review",
-      "source_url": "",
-      "photographer": "",
-      "license": "",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bak-chor-mee.jpg",
+      "photographer": "JB Macatulad",
+      "license": "CC BY-SA 4.0",
       "visual_inspection": "pending",
       "notes": "Find correctly depicted Singapore dish and commercial reusable licence"
     },
@@ -90,22 +91,22 @@
     {
       "number": 8,
       "dish": "Fishball Noodles",
-      "image_status": "missing",
+      "image_status": "source_selected_awaiting_image",
       "verification_status": "pending_independent_review",
-      "source_url": "",
-      "photographer": "",
-      "license": "",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fishball_Noodles.jpg",
+      "photographer": "ProjectManhattan",
+      "license": "CC0 1.0",
       "visual_inspection": "pending",
       "notes": "Find correctly depicted Singapore dish and commercial reusable licence"
     },
     {
       "number": 9,
       "dish": "Yong Tau Foo",
-      "image_status": "missing",
+      "image_status": "source_selected_awaiting_image",
       "verification_status": "pending_independent_review",
-      "source_url": "",
-      "photographer": "",
-      "license": "",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Yong_Tau_Foo.jpg",
+      "photographer": "ShahirahNajieha21",
+      "license": "CC BY-SA 4.0",
       "visual_inspection": "pending",
       "notes": "Find correctly depicted Singapore dish and commercial reusable licence"
     },
@@ -145,11 +146,11 @@
     {
       "number": 13,
       "dish": "Satay",
-      "image_status": "missing",
+      "image_status": "source_selected_awaiting_image",
       "verification_status": "pending_independent_review",
-      "source_url": "",
-      "photographer": "",
-      "license": "",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Satay_in_Singapore.jpg",
+      "photographer": "Ypsilon from Finland",
+      "license": "CC0 1.0",
       "visual_inspection": "pending",
       "notes": "Find correctly depicted Singapore dish and commercial reusable licence"
     },
@@ -167,11 +168,11 @@
     {
       "number": 15,
       "dish": "Mee Siam",
-      "image_status": "missing",
+      "image_status": "source_selected_awaiting_image",
       "verification_status": "pending_independent_review",
-      "source_url": "",
-      "photographer": "",
-      "license": "",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mee_siam.jpg",
+      "photographer": "Alpha",
+      "license": "CC BY-SA 2.0",
       "visual_inspection": "pending",
       "notes": "Find correctly depicted Singapore dish and commercial reusable licence"
     },
