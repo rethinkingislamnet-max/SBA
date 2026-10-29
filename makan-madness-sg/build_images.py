@@ -1,26 +1,38 @@
 #!/usr/bin/env python3
-import json, urllib.request, urllib.parse, io, pathlib, time
+"""Publish only successfully downloaded, independently sourced food photographs."""
+import json, urllib.request, urllib.parse, io, pathlib, time, sys
 from PIL import Image, ImageOps
 root=pathlib.Path("makan-madness-sg")
 sources=json.loads((root/"image-sources.json").read_text())
-out=root/"images"
-out.mkdir(parents=True,exist_ok=True)
-manifest=[]
+out=root/"images";out.mkdir(parents=True,exist_ok=True)
+manifest=[];failures=[]
 for item in sources:
-    url="https://commons.wikimedia.org/wiki/Special:Redirect/file/"+urllib.parse.quote(item["filename"])
-    request=urllib.request.Request(url,headers={"User-Agent":"SBA-MakanMadness/1.0 (https://rethinkingislam.net/sba/; image provenance retained)"})
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(request,timeout=35) as resp: raw=resp.read()
-            break
-        except Exception:
-            if attempt==2: raise
-            time.sleep(3)
-    img=Image.open(io.BytesIO(raw)).convert("RGB")
-    img=ImageOps.exif_transpose(img)
-    img.thumbnail((960,720))
     path=out/(item["slug"]+".webp")
-    img.save(path,"WEBP",quality=76,method=6)
-    manifest.append({**item,"path":"/makan-madness-sg/images/"+path.name,"bytes":path.stat().st_size,"modified":"Resized and converted to WebP for web delivery"})
+    try:
+        if not path.exists():
+            url="https://commons.wikimedia.org/wiki/Special:Redirect/file/"+urllib.parse.quote(item["filename"])
+            req=urllib.request.Request(url,headers={"User-Agent":"SBA-MakanMadness/1.0 (https://rethinkingislam.net/sba/)"})
+            last_error=None
+            for attempt in range(3):
+                try:
+                    with urllib.request.urlopen(req,timeout=35) as resp:
+                        raw=resp.read(20_000_000)
+                    im=Image.open(io.BytesIO(raw))
+                    im=ImageOps.exif_transpose(im).convert("RGB")
+                    im.thumbnail((960,720))
+                    im.save(path,"WEBP",quality=76,method=6)
+                    last_error=None
+                    break
+                except Exception as exc:
+                    last_error=str(exc)
+                    time.sleep(2)
+            if last_error: raise RuntimeError(last_error)
+        # An existing file is included only if it can actually be decoded.
+        with Image.open(path) as check: check.verify()
+        manifest.append({**item,"path":"/makan-madness-sg/images/"+path.name,"bytes":path.stat().st_size,"modified":"Resized and converted to WebP for web delivery"})
+    except Exception as exc:
+        failures.append({"dish":item["dish"],"filename":item["filename"],"error":str(exc)[:250]})
+        print("SKIP",item["dish"],str(exc)[:150],file=sys.stderr)
 (root/"image-manifest.json").write_text(json.dumps({"app":"Makan Madness SG","images":manifest},ensure_ascii=False,indent=2)+"\n")
-print("Published",len(manifest),"licensed images")
+(root/"image-build-report.json").write_text(json.dumps({"selected":len(sources),"published":len(manifest),"failures":failures},ensure_ascii=False,indent=2)+"\n")
+print("Published",len(manifest),"of",len(sources),"sources; failures",len(failures))
