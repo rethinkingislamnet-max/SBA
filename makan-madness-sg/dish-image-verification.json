@@ -3,10 +3,10 @@
   "purpose": "Track source verification, rights and dish identity separately from image availability. Do not equate a matching filename with visual verification.",
   "summary": {
     "dish_count": 40,
-    "source_candidates": 23,
+    "source_candidates": 24,
     "published_candidate_matches": 7,
-    "awaiting_image_processing": 16,
-    "missing": 17,
+    "awaiting_image_processing": 17,
+    "missing": 16,
     "independently_visual_verified": 0,
     "additional_unmatched_asset": "Katong Laksa"
   },
@@ -256,11 +256,11 @@
     {
       "number": 23,
       "dish": "Thosai",
-      "image_status": "missing",
-      "verification_status": "not_sourced",
-      "source_url": "",
-      "photographer": "",
-      "license": "",
+      "image_status": "source_selected_awaiting_image",
+      "verification_status": "source_recorded_final_visual_review_pending",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Masala_Dosa,_South_Indian_Food.jpg",
+      "photographer": "Wannabefoodii",
+      "license": "CC BY-SA 4.0",
       "visual_inspection": "pending",
       "notes": "Find correctly depicted Singapore dish and commercial reusable licence"
     },
