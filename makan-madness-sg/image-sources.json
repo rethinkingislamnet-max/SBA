@@ -223,5 +223,68 @@
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Masala_Dosa,_South_Indian_Food.jpg",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "slug": "beef-rendang",
+    "dish": "Beef Rendang",
+    "filename": "Beef Rendang..JPG",
+    "author": "Miansari66",
+    "license": "CC0 1.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beef_Rendang..JPG",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "slug": "murtabak",
+    "dish": "Murtabak",
+    "filename": "Singapore food - Murtabak at Food Republic Nov 2016.jpg",
+    "author": "Orderinchaos",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Singapore_food_-_Murtabak_at_Food_Republic_Nov_2016.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "slug": "sugee-cake",
+    "dish": "Sugee Cake",
+    "filename": "Sugee cake at Food for Thought, Singapore - 20130615.jpg",
+    "author": "Tonbi ko",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sugee_cake_at_Food_for_Thought,_Singapore_-_20130615.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "slug": "asam-pedas",
+    "dish": "Asam Pedas",
+    "filename": "Asam Pedas Ikan Kerisi.jpg",
+    "author": "Mdsheth1986",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Asam_Pedas_Ikan_Kerisi.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "slug": "lamprais",
+    "dish": "Lamprais",
+    "filename": "Lamprais (2).jpg",
+    "author": "Dan arndt",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lamprais_(2).jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "slug": "soto-ayam",
+    "dish": "Soto Ayam",
+    "filename": "Soto ayam.JPG",
+    "author": "Wikimedia Commons contributor (verify attribution)",
+    "license": "Review required",
+    "source": "https://commons.wikimedia.org/wiki/File:Soto_ayam.JPG",
+    "license_url": null
+  },
+  {
+    "slug": "vindaloo",
+    "dish": "Vindaloo",
+    "filename": "Chicken Vindaloo.jpeg",
+    "author": "Carpathia",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_Vindaloo.jpeg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Chicken_Vindaloo.jpeg"
   }
 ]
