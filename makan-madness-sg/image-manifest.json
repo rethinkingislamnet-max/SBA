@@ -338,6 +338,18 @@
       "modified": "Resized and converted to WebP for web delivery"
     },
     {
+      "slug": "asam-pedas",
+      "dish": "Asam Pedas",
+      "filename": "Asam Pedas Ikan Kerisi.jpg",
+      "author": "Mdsheth1986",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Asam_Pedas_Ikan_Kerisi.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "path": "/makan-madness-sg/images/asam-pedas.webp",
+      "bytes": 68712,
+      "modified": "Resized and converted to WebP for web delivery"
+    },
+    {
       "slug": "lamprais",
       "dish": "Lamprais",
       "filename": "Lamprais (2).jpg",
