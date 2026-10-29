@@ -160,5 +160,32 @@
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Nasi_padang.jpg",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "slug": "fish-head-curry",
+    "dish": "Fish Head Curry",
+    "filename": "Fish Head Curry at Banana Leaf Apolo.jpg",
+    "author": "JB Macatulad",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fish_Head_Curry_at_Banana_Leaf_Apolo.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "slug": "idli",
+    "dish": "Idli",
+    "filename": "Idli plate with sambar and coconut chutney.jpg",
+    "author": "See source page",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Idli_plate_with_sambar_and_coconut_chutney.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "slug": "vadai",
+    "dish": "Vadai",
+    "filename": "Vada Food.jpg",
+    "author": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vada_Food.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
   }
 ]
