@@ -97,5 +97,23 @@
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Yong_Tau_Foo.jpg",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "slug": "satay",
+    "dish": "Satay",
+    "filename": "Satay in Singapore.jpg",
+    "author": "Ypsilon from Finland",
+    "license": "CC0 1.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Satay_in_Singapore.jpg",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "slug": "mee-siam",
+    "dish": "Mee Siam",
+    "filename": "Mee siam.jpg",
+    "author": "Alpha",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mee_siam.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
   }
 ]
