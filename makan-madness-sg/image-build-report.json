@@ -1,0 +1,11 @@
+{
+  "selected": 35,
+  "published": 34,
+  "failures": [
+    {
+      "dish": "Asam Pedas",
+      "filename": "Asam Pedas Ikan Kerisi.jpg",
+      "error": "HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+    }
+  ]
+}
